@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auxílio Emergencial</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/df2d2937e7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="info">
+            <span>Olá, bem-vindo(a) ao</span>
+            <h1>Auxílio Emergencial</h1>
+            <p>O Auxílio Emergencial é um benefício financeiro destinado aos trabalhadores informais, microempreendedores individuais (MEI), autônomos e desempregados, e tem por objetivo fornecer proteção emergencial no período de enfrentamento à crise causada pela pandemia do Coronavírus - COVID 19.</p>
+        </div>
+        <div class="form">
+            <h1>Faça sua solicitação</h1>
+            <form action=".">
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="E-mail">
+
+                <div class="input-group">
+                    <input id="cep" type="text" placeholder="CEP">
+                    <a onclick="validarCep()" style="width: 15%; margin-left: 8px; font-size: 25px; padding: 2px;" ><i class="fas fa-search"></i></a>
+                </div>
+                
+
+                <div class="input-group">
+                    <input type="text" placeholder="Logradouro" id="logradouro">
+                    <input type="text" placeholder="N°" id="num" style="width: 20%;">
+                </div>
+
+                <div class="input-group">
+                    <input type="text" placeholder="Cidade" id="city">
+                    <input type="text" placeholder="UF" style="width: 20%;" id="uf">
+                </div>
+
+                <button>Cadastrar</button>
+            </form>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
